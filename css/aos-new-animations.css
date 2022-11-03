@@ -1,0 +1,29 @@
+[data-aos=text-up] {
+    bottom: -200px;
+    position: relative;
+  }
+  [data-aos=text-up].aos-animate {
+    bottom: 0px;
+  }
+  
+  [data-aos=line] {
+    
+    /* position: relative;
+    height: 2px; */
+    width: 0%;
+  }
+  [data-aos=line].aos-animate {
+    width: 100%;
+  }/*# sourceMappingURL=sass.css.map */
+  [data-aos=image-up] {
+    height: 0%;
+  }
+  [data-aos=image-up].aos-animate {
+    height: 100%;
+  }
+  /* [data-aos=skew-animate] {
+    transform: skew(-10deg);
+  }
+  [data-aos=skew-animate].aos-animate {
+    transform: skew(-3deg);
+  } */

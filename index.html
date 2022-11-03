@@ -1,0 +1,620 @@
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/cursor.css">
+<link rel="stylesheet" type="text/css" href="css/bgnoise.css">
+<link rel="stylesheet" type="text/css" href="css/aos-new-animations.css">
+<link rel="stylesheet" type="text/css" href="css/image_overlay.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- aos-js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- fontawesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+
+<!-- image overlay js -->
+<script src="js/image_overlay.js"></script>
+
+<!-- image parallax on work section -->
+<script src="js/image_parallax.js"></script>
+
+<!-- jquery cdnjs -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="images/logo.png" type="images/x-icon">
+	<title>
+		Jeric Saludo - Portfolio
+	</title>
+</head>
+<body>
+	
+	<script src="js/aos.js"></script> 
+	
+	<!-- cursor -->
+
+	<div id="cursor">
+		<div class="cursor-circle circle-big">
+			<div class="bigCircle" id="bigCircles">
+				<!-- View -->
+			</div>
+		</div>
+		<div class="cursor-circle circle-small">
+			<div class="smallCircle"></div>
+		</div>
+	</div>
+
+	<!-- cursor-end -->
+
+	
+	<!-- background noise -->
+	<!-- <video autoplay="true" loop="loop" muted="muted" class="background_vid">
+		<source src="video/bg2.mp4">
+	</video> -->
+	<!-- <div class="bgnoise"></div> -->
+
+	<!-- profile pic large -->
+	<div class="image_overlay" id="imgOverlay">
+		<img src="images/profile.jpg" id="imgOverlay2">
+	</div>
+	<!-- screen loader -->
+	<div class="screen_loader">
+		Jeric Saludo
+	</div>
+	                                 
+
+	
+	<div class="menu_container" id="menu_overlay">
+		<div class="top">
+			<nav>
+				<div class="logo">
+					<img src="images/logo.png">
+				</div>
+				<div class="hamburg_close" id="hamburgs2">
+					<div class="line1"></div>
+					<div class="line2"></div>
+				</div>
+			</nav>
+		</div>
+		<div class="links2">
+			<div class="left">
+				<h1><a href="#about">About</a></h1>
+				<h1><a href="#experience">Experience</a></h1>
+				<h1><a href="#work">Work</a></h1>
+				<h1><a href="#contact">Contact</a></h1>
+			</div>
+			<div class="right">
+				<h2>
+					I’m passionate about helping small businesses thrive online. I’m ready to work on your next project, so reach out!
+				</h2>
+			</div>
+		</div>
+		<div class="socials">
+			<a href="https://docdro.id/RRmxq0H">curriculum vitae</a>
+		</div>
+	</div>
+
+	<nav data-aos="fade-in" data-aos-delay="2100">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="hamburg" id="hamburgs2">
+			<div class="line1"></div>
+			<div class="line2"></div>
+		</div>
+	</nav>
+	
+
+	
+
+	<div class="padding_container">
+		<div class="name_and_pic" data-aos="fade-in" data-aos-delay="2100">
+			<div>
+				<h3>
+					Jeric Saludo.
+					<br>
+					Web Designer and Developer.					
+				</h3>
+			</div>
+			<div class="pic" id="pic" onmouseover="darken()" onmouseout="lighten()"></div>
+		</div>
+
+		<div class="divider" data-aos="line" data-aos-delay="2000"></div>
+
+		<!-- about -->
+		
+		<section class="about" id="about"> 
+			<div class="subheader" data-aos="fade-zoom-in" data-aos-delay="2100">
+				// About
+			</div>
+			<div class="intro_text">
+				<div class="text-container-animate">
+					<span data-aos="text-up" data-aos-delay="2100">
+						<h1>
+							Let's build
+						</h1>
+					</span>
+				</div>
+				<div class="text-container-animate">
+					<span data-aos="text-up" data-aos-delay="2200">
+						<h1>
+							your website
+						</h1>
+					</span>
+				</div>
+				<div class="text-container-animate">
+					<span data-aos="text-up" data-aos-delay="2300">
+						<h1>
+							with a
+						</h1>
+					</span>
+				</div>
+				<div class="text-container-animate">
+					<span data-aos="text-up" data-aos-delay="2400">
+						<h1>
+							minimal yet
+						</h1>
+					</span>
+				</div>
+				<div class="text-container-animate">
+					<span data-aos="text-up" data-aos-delay="2500">
+						<h1>
+							elegant design.
+						</h1>
+					</span>
+				</div>
+			</div>
+			<div class="contact_shortcut" id="contact_shorcut" data-aos="fade-zoom-in"
+				data-aos-easing="ease-in-back"
+				
+				data-aos-anchor-placement="bottom-bottom"> 
+					<a href="#contact">
+						
+						Let's work together.
+						<div class="underLine"></div>
+						
+					</a>
+				</div>
+			<div class="contact_links" data-aos="fade-in" data-aos-delay="2100">
+				<a href="https://docdro.id/RRmxq0H">CV</a>
+			</div>
+		</section>
+		<section class="bio">
+			<div class="card" data-aos="fade-up" data-aos-delay="200" data-aos-offset="200">
+
+				<p>I work as a dedicated web developer from the Philippines. I adore creating cutting-edge designs that offer a comfortable user experience. My interest in web development motivates me to work hard and smart, resulting in jobs that are both promising and accomplished.</p>
+				<br><br>
+				<p>Check the services I can offer.</p>
+			</div>
+			<div class="card" data-aos="flip-left" data-aos-delay="100"  data-aos-offset="200">
+				<h2 class="numbering">01.</h2>
+				<img src="images/responsive.png" alt="">
+				<h2>
+					Fully responsive<br>layout to all devices.
+				</h2>
+				
+			</div>
+			<div class="card" data-aos="flip-left" data-aos-delay="200"  data-aos-offset="200">
+				<h2 class="numbering">02.</h2>
+				<img src="images/design.png" alt="">
+				<h2>
+					Unique and modern<br>website design.
+				</h2>
+			</div>
+			<div class="card" data-aos="flip-left" data-aos-delay="300"  data-aos-offset="200">
+				<h2 class="numbering">03.</h2> 
+				<img src="images/organized.png" alt="">
+				<h2>
+					A layout that<br>improves user experience.
+				</h2>
+			</div>
+			<div class="card" data-aos="flip-left" data-aos-delay="400"  data-aos-offset="200">
+				<h2 class="numbering">04.</h2>
+				<img src="images/functional.png" alt="">
+				<h2>
+					Make sures that<br>what you sees, performs.
+				</h2>
+			</div>
+			<!-- <div class="bio_container" data-aos="fade-up zoom-in"
+			data-aos-duration="1500"
+			data-aos-offset="300"
+			id="tilt"
+			>
+				
+				<p>I work as a dedicated web developer from the Philippines. I adore creating cutting-edge designs that offer a comfortable user experience. My interest in web development motivates me to work hard and smart, resulting in jobs that are both promising and accomplished.</p>
+				
+				<img src="images/logo.png">
+			</div> -->
+		</section>
+
+		<!-- experience -->
+
+		<section class="experience" id="experience">
+			<div class="subheader">
+				// Experience
+			</div>
+			<div class="experience_container">
+				<div class="experience_title">
+					<div class="divider_2nd" data-aos="line" data-aos-offset="300"></div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="00">
+							<h2>
+								I enjoy
+							</h2>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="100">
+							<h2>
+								the things I do
+							</h2>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="200">
+							<h2>
+								for the web.
+							</h2>
+						</span>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="00">
+							<h2>
+								Here are the following
+							</h2>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="100">
+							<h2>
+								things I accomplished.
+							</h2>
+						</span>
+					</div>
+					
+				</div>
+				<div class="experience_desc">
+					<div class="divider_2nd" data-aos="line" data-aos-offset="300"></div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="00">
+							<p>
+								- My stay at Miyens helped me hone my skills in web designing.
+							</p>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="100">
+							<p>
+								- Most of the projects I'm involved with are built in WordPress.
+							</p>
+						</span>
+					</div>
+					<!-- <div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="200">
+							<p>
+								Kindly see the sample projects I have below.
+							</p>
+						</span>
+					</div> -->
+
+					<br>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="200">
+							<div class="bullet_container">
+								<div>01.</div>
+								<div>
+									<p>Modified WordPress-made websites for their clients.</p>
+								</div>
+							</div>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="300">
+							<div class="bullet_container">
+								<div>02.</div>
+								<div>
+									<p>Created documentation website for their products using HTML, CSS and JavaScript.</p>
+								</div>
+							</div>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="400">
+							<div class="bullet_container">
+								<div>03.</div>
+								<div>
+									<p>Created WordPress version of the documentations for their products and solutions.</p>
+								</div>
+							</div>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="500">
+							<div class="bullet_container">
+								<div>04.</div>
+								<div>
+									<p>Created WordPress demo pages for business website.</p>
+								</div>
+							</div>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="600">
+							<div class="bullet_container">
+								<div>05.</div>
+								<div>
+									<p>Created WordPress demo pages for shop page using WooCommerce.</p>
+								</div>
+							</div>
+						</span>
+					</div>
+					<br>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="00">
+							<p>
+								- I've also gained experience upon building a portfolio website for a client outside the company.
+							</p>
+						</span>
+					</div>
+
+				</div> 
+			</div>
+
+
+			<div class="subheader" id="">
+				// Education
+			</div>
+			<div class="experience_container">
+				
+				<div class="experience_title">
+					<div class="divider_2nd" data-aos="line" data-aos-offset="200"></div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="00">
+							<h2>
+								My interest in web development
+							</h2>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="200">
+							<h2>
+								leads to exceeding
+							</h2>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="300">
+							<h2>
+								expectations.
+							</h2>
+						</span>
+					</div>
+				</div>
+				<div class="experience_desc">
+					<div class="divider_2nd" data-aos="line" data-aos-offset="200"></div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="00">
+							<p>
+								- Spent the last 6 years at University of the East - Caloocan.
+							</p>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="100">
+							<p>
+								- Graduated with Honors during Senior High, taking the ICT Track.
+							</p>
+						</span>
+					</div>
+					<div class="text-container-animate">
+						<span data-aos="text-up" data-aos-delay="300">
+							<p>
+								- Took BSIT Course during college. This time, I managed to graduate with Latin Honor - Magna Cum Laude.
+							</p>
+						</span>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<!-- work -->
+
+		<section class="work" id="work">
+			<div class="subheader" data-aos="fade-zoom-in">
+				// Work
+			</div>
+			<div class="intro_text">
+				<div class="text-container-animate">
+					<span data-aos="text-up">
+						<h1>
+							<!-- Check out -->
+							Here's what I
+						</h1>
+					</span>
+				</div>
+				<div class="text-container-animate">
+					<span data-aos="text-up" data-aos-delay="100">
+						<h1>
+							<!-- my sample works. -->
+							am capable of.
+						</h1>
+					</span>
+				</div>
+			</div>
+
+
+			<div class="sample_work_container" id="orenji">
+				<div class="img" data-aos="zoom-in" data-aos-delay="700">
+					<a href="http://tadhananijayson.com/">
+						<img src="images/work1.jpg">
+					</a>
+				</div>
+				<div class="work_desc">
+					<h1 class="work_title">
+						<a href="http://tadhananijayson.com/">
+							
+							Wedding
+						</a>
+					</h1>
+					<p>
+						Tadhananijayson - Wedding RSVP website made with WordPress.
+					</p>
+				</div>
+			</div>
+			<div class="sample_work_container" id="grin">
+				<div class="img" data-aos="zoom-in" data-aos-delay="500">
+					<a href="projects.html">
+						<img src="images/work2.png">
+					</a>
+				</div>
+				<div class="work_desc">
+					<h1 class="work_title">
+						<a href="projects.html">
+							Sample Projects
+						</a>
+					</h1>
+					<p>
+						Check out my sample projects made with WordPress and HTML.
+					</p>
+				</div>
+			</div>
+			
+			
+			
+		</section>
+
+
+		<!-- contact -->
+
+		<section class="contact" id="contact">
+			<div class="subheader" data-aos="fade-zoom-in">
+				// Contact
+			</div>
+			<div class="contact_content">
+				<div class="message_container">
+					<div class="text-container-animate">
+						<span data-aos="text-up">
+							
+							<p>Send me a message and<br>let's start a journey together.</p>
+						</span>
+					</div>
+					
+				</div>
+				
+				<div class="contact_row">
+					<p>
+						Email
+					</p>
+					<div class="contact_text email_details">
+						<div class="text-container-animate">
+							<span data-aos="text-up">
+								<a>
+									<h1>
+										saludo.jeric19<br>@gmail.com
+									</h1>
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+		</section>
+		
+	</div>
+	<section class="footer">
+			
+			<div class="name">
+				<div>
+					<h3>
+						Jeric Saludo.
+						<br>
+						Web Designer and Developer.					
+					</h3>
+				</div>
+			</div>
+			<div class="links">
+				<ul>
+					<li>
+						<a href="#about">
+							About
+						</a>
+					</li>
+					<li>
+						<a href="#experience">
+							Experience
+						</a>
+					</li>
+					
+					<li>
+						<a href="#work">
+							Work
+						</a>
+					</li>
+					<li class="hide_on_mobile">
+						<a href="https://docdro.id/RRmxq0H">
+							Curriculum Vitae
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</section>
+	
+
+	
+
+
+
+
+	
+
+
+
+	<!-- open burger menu -->
+	<script src="js/burgerToOpen.js"></script>
+
+	<!-- cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+
+	<!-- cursor js -->
+	<script src="js/cursor.js"></script>
+	
+	<!-- div 3d -->
+	<script src="js/div3d.js"></script>
+
+	
+
+	<!-- change color on work section -->
+	<script src="js/colorScroll.js"></script>
+
+	<!-- change color on work section -->
+	<script src="js/smoothscroll.js"></script>
+
+
+	<!-- screen loader -->
+	<script src="js/screenloader.js"></script>
+	
+
+
+</body>
+</html>
+

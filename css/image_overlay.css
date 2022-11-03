@@ -1,0 +1,25 @@
+.image_overlay{
+	
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.9);
+	opacity: 0;
+	transition: all .5s ease;
+	z-index: -1;
+}
+
+.image_overlay img{
+	position: absolute;
+	border-radius: 50%;
+	top: 50%; right: 40%;
+	transform: translate(50%,-50%);
+	max-height: 60vh;
+	max-width: 30vw;
+	object-fit: cover;
+	transition: all 1s ease;
+	transition-delay: 0.5s;
+	opacity: 0;
+	
+}
